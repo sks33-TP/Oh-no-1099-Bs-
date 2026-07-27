@@ -495,4 +495,3 @@ if uploaded_file is not None:
             )
 
 st.markdown("---")
-st.markdown("<p style='text-align: center; color: gray;'>Designed for ProSeries Tax Software

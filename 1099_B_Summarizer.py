@@ -450,7 +450,6 @@ def export_to_proseries_excel(summary_df, raw_df, ready_df, output_stream):
 # --- Streamlit Web Application Interface ---
 st.set_page_config(page_title="1099-B Summarizer", layout="wide")
 st.title("📄 IRS Wage & Income Transcript 1099-B & 1099-DA Summarizer")
-st.caption("🛠️ **This tool is developed by Md. Mamun Sarder**")
 st.write("Upload an IRS PDF transcript to generate a ProSeries-ready Excel reconciliation workbook.")
 
 uploaded_file = st.file_uploader("Upload PDF Transcript", type=["pdf"])

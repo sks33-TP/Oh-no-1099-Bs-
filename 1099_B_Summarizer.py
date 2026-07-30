@@ -300,7 +300,6 @@ def export_to_proseries_excel(summary_df, raw_df, ready_df, output_stream):
 
     ws_ready.append(["IRS Wage & Income Transcript - ProSeries Ready Import/Entry Sheet"])
     ws_ready.cell(row=1, column=1).font = font_title
-    ws_ready.append(["This tool is developed by Md. Mamun Sarder"])
     ws_ready.append([])
 
     ready_headers = ["Tax Year", "Company / Brokerage", "EIN", "Description / Group Name", "Category", "Date Sold", "Date Acquired", "Proceeds", "Cost Basis", "Wash Sale Disallowed", "Other Adjustments", "Form Count"]
@@ -363,7 +362,6 @@ def export_to_proseries_excel(summary_df, raw_df, ready_df, output_stream):
     
     ws1.append(["IRS Wage & Income Transcript - 1099-B & 1099-DA Summary"])
     ws1.cell(row=1, column=1).font = font_title
-    ws1.append(["This tool is developed by Md. Mamun Sarder"])
     ws1.append([])
     
     headers = ["Tax Year", "Company / Brokerage", "Category", "Proceeds", "Cost Basis", "Wash Sale Disallowed", "Other Adjustments/Income", "Form Count", "Empty Forms"]
